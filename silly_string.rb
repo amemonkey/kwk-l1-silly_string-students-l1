@@ -33,4 +33,3 @@ sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples 
 sentence = sentence.downcase.gsub!("a","o").capitalize # Add your gsub chain here
 
 puts sentence
-

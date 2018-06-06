@@ -22,13 +22,12 @@
 # puts "There are #{letter_count} letters in #{big_word}."
 
 # Challenge 5: Add "wow" and "mom" to big_word
-def bigger_word(new_word)
-bigger_word = big_word 
+def bigger_word
+bigger_word = big_word + "wow" + "mom"
 new_letter_count = bigger_word.size.length
 puts "There are now #{new_letter_count} in #{bigger_word}"
 end
 
-bigger_word("wow" + "mom")
 
 # Challenge 6: Capitalize this sentence properly
 

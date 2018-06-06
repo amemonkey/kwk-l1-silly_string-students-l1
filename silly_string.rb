@@ -31,19 +31,8 @@ puts fixed_sentence
 sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
 
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
-def 
-sentence = sentence.gsub # Add your gsub chain here
+
+sentence = sentence.gsub(A,O)(o,a) # Add your gsub chain here
 
 puts sentence
 
-class String
-  define_method(:leet_speak) do
-    self.gsub("e","3")
-  end
-end
-
-s = "elijah".leet_speak()
-
-puts s # => 3lijah
-
-dna.tr('ATCG', 'TAGC')   # => "TGCAT"

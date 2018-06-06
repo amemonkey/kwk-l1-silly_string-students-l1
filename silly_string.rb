@@ -23,7 +23,7 @@ puts "There are #{letter_count} in #{big_word}"
 
 # Challenge 5: Add "wow" and "mom" to big_word
 
-bigger_word = big_word."wow" + "mom" 
+bigger_word = big_word + "wow" + "mom" 
 new_letter_count = bigger_word.size.length
 puts "There are now #{new_letter_count} in #{bigger_word}"
 

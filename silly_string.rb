@@ -31,9 +31,9 @@ end
 
 # Challenge 6: Capitalize this sentence properly
 
-# proper_sentence = "i really like programming."
-# fixed_sentence = proper_sentence.capitalize
-# puts fixed_sentence
+proper_sentence = "i really like programming."
+fixed_sentence = proper_sentence.capitalize
+puts fixed_sentence
 
 # Challenge 7: String Switcheroo
 sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"

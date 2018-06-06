@@ -31,8 +31,8 @@
 
 # Challenge 6: Capitalize this sentence properly
 
-proper_sentence = "i really like programming.".capitalize
-# fixed_sentence = proper_sentence.capitalize
+proper_sentence = "i really like programming."
+fixed_sentence = proper_sentence.capitalize
 puts proper_sentence
 
 # Challenge 7: String Switcheroo

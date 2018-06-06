@@ -37,8 +37,5 @@ sentence = sentence.gsub # Add your gsub chain here
 puts sentence
 
 
-def DNA_strand(dna)    
-  dna.tr!('A', 'T')    
-end
 
 dna.tr('ATCG', 'TAGC')   # => "TGCAT"

@@ -17,9 +17,9 @@
 
 # Challenge 4: Count how many letters are in that big_word
 
-big_word = "supercalifragilisticexpialidocious"
-letter_count = big_word.length 
-puts "There are #{letter_count} letters in #{big_word}."
+# big_word = "supercalifragilisticexpialidocious"
+# letter_count = big_word.length 
+# puts "There are #{letter_count} letters in #{big_word}."
 
 # Challenge 5: Add "wow" and "mom" to big_word
 

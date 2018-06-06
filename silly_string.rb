@@ -30,7 +30,7 @@ puts fixed_sentence
 # Challenge 7: String Switcheroo
 sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
 
-sentence = sentence.gsub("a","o"|"A","O") # Add your gsub chain here
+sentence = sentence.gsub("a""o"|"A""O") # Add your gsub chain here
 
 puts sentence
 

@@ -23,7 +23,7 @@
 
 # Challenge 5: Add "wow" and "mom" to big_word
 def bigger_word(new_word)
-bigger_word = big_word
+bigger_word = big_word 
 new_letter_count = bigger_word.size.length
 puts "There are now #{new_letter_count} in #{bigger_word}"
 end

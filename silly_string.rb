@@ -23,21 +23,21 @@ puts "There are #{letter_count} words in #{big_word}"
 
 # Challenge 5: Add "wow" and "mom" to big_word
 
-bigger_word = big_word + "wow" + "mom" 
-new_letter_count = bigger_word.size.length
-puts "There are now #{new_letter_count} in #{bigger_word}"
+# bigger_word = big_word + "wow" + "mom" 
+# new_letter_count = bigger_word.size.length
+# puts "There are now #{new_letter_count} in #{bigger_word}"
 
 # Challenge 6: Capitalize this sentence properly
 
-proper_sentence = "i really like programming.".capitalize
-# fixed_sentence = proper_sentence.capitalize
-puts proper_sentence
+# proper_sentence = "i really like programming.".capitalize
+# # fixed_sentence = proper_sentence.capitalize
+# puts proper_sentence
 
 # Challenge 7: String Switcheroo
-sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
+# sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
 
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 
-sentence = sentence.gsub # Add your gsub chain here
+# sentence = sentence.gsub # Add your gsub chain here
 
-puts sentence
+# puts sentence

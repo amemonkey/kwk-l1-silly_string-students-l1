@@ -21,19 +21,19 @@
 # letter_count = big_word.length 
 # puts "There are #{letter_count} letters in #{big_word}."
 
-# Challenge 5: Add "wow" and "mom" to big_word
-def bigger_word
-bigger_word = big_word + "wow" + "mom"
-new_letter_count = bigger_word.length
-puts "There are now #{new_letter_count} in #{bigger_word}"
-end
+# # Challenge 5: Add "wow" and "mom" to big_word
+# def bigger_word
+# bigger_word = big_word + "wow" + "mom"
+# new_letter_count = bigger_word.length
+# puts "There are now #{new_letter_count} in #{bigger_word}"
+# end
 
 
 # Challenge 6: Capitalize this sentence properly
 
-# proper_sentence = "i really like programming.".capitalize
-# # fixed_sentence = proper_sentence.capitalize
-# puts proper_sentence
+proper_sentence = "i really like programming.".capitalize
+# fixed_sentence = proper_sentence.capitalize
+puts proper_sentence
 
 # Challenge 7: String Switcheroo
 # sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
